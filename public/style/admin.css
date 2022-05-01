@@ -1,0 +1,53 @@
+#admin_tab{
+    width: 100%;
+    min-height: 500px;
+}
+.form_admin{
+    display: flex;
+    flex-direction: column;
+}
+.input_admin{
+    text-align: center;
+    width: 50%;
+    height: 32px;
+    border: 2px solid #37bdf9;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+    margin: 10px 0 10px 0;
+}
+textarea{
+    min-height: 70px;
+    resize: none;
+    border: none;
+    background-color: #450079;
+    color: white;    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px 0 10px 0;
+}
+.table_unit {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.table_unit > span{
+    margin-top: 15px;
+}
+#paginate {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#page{
+    margin-top: 12px;
+}
+#paginate > button{
+    width: 50px;
+}
+#block_article_and_record_table{
+    min-height: 500px;
+}
+#body_table{
+    min-height: 500px;
+}

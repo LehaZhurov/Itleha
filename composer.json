@@ -1,0 +1,17 @@
+{
+    "require": {
+        "twig/twig": "^3.0",
+        "nesbot/carbon": "^2.54"
+    }
+    ,
+    "autoload": {
+       "psr-4": {
+            "Controllers\\": "Controllers",
+            "Validations\\": "Validations"
+        },
+        "files": [
+            "lib/ReadBeanLib/rb.php",
+            "lib/Litero/Router.php"
+       ]
+    }
+}

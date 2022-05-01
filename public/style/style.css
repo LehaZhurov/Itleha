@@ -1,0 +1,342 @@
+/* Фоновый цвет #37bdf9 */
+/* Цвет ссылок #0060df */
+/* Основной цвет white */
+#work_area{
+    width: 100%;
+}
+a{
+    text-decoration-line: none;
+    color: azure;
+}
+a:hover {
+    color:#c802ef;
+}
+ul{
+    list-style: none;
+}
+li:hover{
+    color:#c802ef;
+}
+h3{
+    margin: 0px;
+}
+h2{
+    text-align: center;
+}
+.but{
+    border: none;
+    color: azure;
+    background-color: #450079;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px 0 10px 0;
+}
+button:hover{
+    background-color: #c802ef;
+}
+body{
+    font-family: 'Alfa Slab One', cursive;
+    overflow-x: clip;
+    margin:0;
+    padding:0;
+    overflow-x: clip;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #360062;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    color:azure;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    /* text-align: center; */
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+}
+#search{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 18px;
+    margin-right:10px   ;
+}
+#search > button > img{
+    height: 32px;
+    border:none;
+}
+#search > button {
+    height: 38px;
+    border:2px solid#37bdf9;
+    border-top-right-radius:15px;
+    border-bottom-right-radius: 15px;
+    background-color: #37bdf9;
+}
+#search > input{
+    width: 100%;
+    height: 32px;
+    border:2px solid #37bdf9;
+    border-top-left-radius:15px;
+    border-bottom-left-radius: 15px;
+    outline:none
+}
+#content{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: url('/public/images/in.jpg') no-repeat center center fixed;
+	background-size: cover;
+    background-size:100% 100%;
+    min-height: 500px;
+}
+#lenta_block{
+    width: 60%;
+    /* padding: 10px; */
+}
+#footer{
+    display: flex;
+    background-color: #2e0056;
+    min-height: 100px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#footer > div{
+    margin: 10px;
+    color:azure;
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.post{
+    width: 100%;
+    background-color: #450079 ;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+.post > img{
+    opacity: 0.8;
+    width: 99%;
+}
+.state_post{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.name_state{
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    padding: 0;
+    margin: 2px;   
+    opacity: 0.9; 
+}
+.discription_state{
+    font-size: 16px;
+    margin: 10px;   
+    text-align: justify;
+    color:#e8c8ff;
+    width: 90%;
+}
+.date_and_view{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color:white;
+    width: 90%;
+}
+.view > span > img{
+    width: 22px;
+}
+.date{
+    margin: 5px;
+}
+.combut{
+    font-size:16px;
+}
+#menu{
+    background-color: #450079;
+    margin: 10px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+#menu > ul{
+    list-style-type: none;
+    padding: 10px;
+    color: azure;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#more{
+    display: flex;
+    justify-content: center;
+    background-color: #450079;
+    margin-top: 10px;
+}
+#more > button{
+    width: 50%;
+    font-size: 1.1em;
+    color: azure;
+}
+
+#article{
+    background-color: #450079;
+    width: 60%;
+    margin: 10px;
+    min-height: 500px;
+    color: azure;
+}
+#article > h1 > span{
+    color:#c802ef;
+}
+#article > p > img{
+    width: 100%;
+    height: auto;
+    opacity: 0.9; 
+}
+#article > p{
+    margin: 10px;
+}
+#article > h2{
+    margin: 10px;
+}
+#article > div{
+    margin: 10px;
+    width: 97%;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+#comment_zone{
+    overflow-y:unset;
+}
+.comment_block > p{
+    margin: 10px;
+}
+#lenta_comment{
+    height: 500px;
+    overflow-y: scroll;
+    display: block;
+}
+#comment_form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+#comment_input{
+    min-height: 70px;
+    resize: none;
+    border: none;
+    background-color: #450079;
+    color: white;    font-family: 'Alfa Slab One', cursive;
+    text-align: center;
+    border-radius: 15px;
+}
+#comment_input:focus{
+    outline: none !important;
+    border:1px solid #c802ef;
+    box-shadow: 0 0 10px #719ECE;
+}
+#share{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+#share > span:nth-child(2) {
+    margin-top: 11px;
+    }
+hr{
+    color:azure;
+    height: 5px;
+    background-color: wheat;
+}
+.MsoNormal{
+        margin: 0 0 0 0;
+}
+
+
+#auto_form{
+    background-color: #2e0056;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 400px;
+}
+#auto_form > form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    color: #e8c8ff;
+    margin-left: 15px;
+}
+
+#auto_form > form > input{
+    text-align: center;
+    width: 50%;
+    height: 32px;
+    border: 2px solid #37bdf9;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+    margin: 10px 0 10px 0;
+}
+#auto_form > form > button{
+    width: 100%;
+}
+
+
+
+@media (max-width: 800px) {
+
+	header{
+       flex-direction: column; 
+       height: 200px;
+    }
+    #logo{
+        width: 100%;
+        text-align: center;
+    }
+    #search{
+        width: 96%;
+        margin: 10px;
+    }
+    #lenta_block{
+        width: 100%;
+    }
+    #content{
+        flex-direction: column;
+    }
+    #menu{
+        margin: 0;
+        height: 60px;
+    }
+    #menu > ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #article{
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    #auto_form > form > input{
+        width: 100%;
+    }
+}
+/* @media (max-width: 1000px) {
+    #lenta{
+        width: 70%;
+    }
+} */
